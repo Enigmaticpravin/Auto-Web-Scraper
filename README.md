@@ -23,3 +23,23 @@ The Website Details Fetcher is an Android application that allows users to input
 
    ```shell
    git clone https://github.com/your-username/website-details-fetcher.git
+
+### Open in Android Studio
+- Open Android Studio.
+- Click on "Open an Existing Android Studio Project."
+- Navigate to the directory where you cloned the repository and select the 'website-details-fetcher' folder.
+- Android Studio will sync the project, and you can then build and run it on your emulator or device.
+#### Usage
+- Launch the app on your emulator or device.
+- Enter a website link in the provided EditText field.
+- The app will fetch and display the website's title, description, and image.
+- 
+## Contributing
+Contributions are welcome! Please feel free to open issues or submit pull requests for bug fixes, enhancements, or new features. Follow the guidelines in the CONTRIBUTING.md file for more details.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+This project utilizes the Jsoup library for web scraping and Glide for image loading.
+Special thanks to the open-source community for their contributions to these libraries.
