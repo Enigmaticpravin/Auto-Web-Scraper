@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:boxBackgroundMode="outline"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        android:layout_marginBottom="20dp"
+        app:boxCornerRadiusBottomEnd="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/urlEditText"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:hint="Paste link here" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:id="@+id/warn"
+        android:layout_marginTop="-10dp"
+        android:layout_marginStart="20dp"
+        android:drawableLeft="@drawable/round_warning_amber_24"
+        android:layout_marginEnd="20dp"
+        android:drawableTint="#FF6D00"
+        android:textColor="#FF6D00"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Please remember to include 'https://' before your link for proper functionality."/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:animateLayoutChanges="true"
+        android:id="@+id/websiteDetails"
+        android:visibility="gone"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/stroke_bg"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                app:riv_corner_radius="15dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop" />
+
+            <ProgressBar
+                android:id="@+id/progress_circular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:text="Title"/>
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="Description"/>
+
+            <TextView
+                android:id="@+id/linkTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/outline_link_24"
+                android:layout_gravity="center_vertical"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
