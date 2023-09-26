@@ -1,7 +1,7 @@
 # Auto-Web-Scraper
 ## Introduction
 
-The Website Details Fetcher is an Android application that allows users to input website links and fetch essential information like title, description, and images from those websites. This README provides an overview of the project, its features, and instructions for cloning and using it.
+Auto Web Scraper is an Android application that allows users to input website links and fetch essential information like title, description, and images from those websites. This README provides an overview of the project, its features, and instructions for cloning and using it.
 
 ## Features
 
@@ -27,7 +27,7 @@ The Website Details Fetcher is an Android application that allows users to input
 ### Open in Android Studio
 - Open Android Studio.
 - Click on "Open an Existing Android Studio Project."
-- Navigate to the directory where you cloned the repository and select the 'website-details-fetcher' folder.
+- Navigate to the directory where you cloned the repository and select the 'Auto-Web-Scraper' folder.
 - Android Studio will sync the project, and you can then build and run it on your emulator or device.
 #### Usage
 - Launch the app on your emulator or device.
