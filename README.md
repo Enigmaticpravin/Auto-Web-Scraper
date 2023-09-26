@@ -33,7 +33,7 @@ The Website Details Fetcher is an Android application that allows users to input
 - Launch the app on your emulator or device.
 - Enter a website link in the provided EditText field.
 - The app will fetch and display the website's title, description, and image.
-- 
+
 ## Contributing
 Contributions are welcome! Please feel free to open issues or submit pull requests for bug fixes, enhancements, or new features. Follow the guidelines in the CONTRIBUTING.md file for more details.
 
