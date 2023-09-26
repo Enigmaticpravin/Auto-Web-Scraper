@@ -6,7 +6,7 @@ Auto Web Scraper is an Android application that allows users to input website li
 ## Features
 
 - Fetches website title, description, and image details.
-- Accepts various URL formats, including 'http://', 'https://', 'www.', and domain names.
+- Accepts various URL formats, including 'http://', 'https://', and domain names.
 - Displays fetched data in real-time as the user inputs the website link.
 
 ## How to Use
@@ -22,7 +22,7 @@ Auto Web Scraper is an Android application that allows users to input website li
 2. Run the following command:
 
    ```shell
-   git clone https://github.com/your-username/website-details-fetcher.git
+   git clone https://github.com/Enigmaticpravin/Auto-Web-Scraper.git
 
 ### Open in Android Studio
 - Open Android Studio.
